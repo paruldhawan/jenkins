@@ -22,9 +22,6 @@ def call(body) {
     node("env:dev",{
           // create a function to do this. @todo princetyagi
           echo "HII"
-      }
     })
-  }
-
-
-
+  })
+}
