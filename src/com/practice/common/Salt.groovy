@@ -1,10 +1,10 @@
-package com.farfetch.common
+package com.practice.common
 
 import groovy.json.JsonSlurper
-import com.farfetch.common.Log
-import com.farfetch.common.Blueprint
-import com.farfetch.common.BuildArgs
-import com.farfetch.common.Ffbuild
+import com.practice.common.Log
+import com.practice.common.Blueprint
+import com.practice.common.BuildArgs
+import com.practice.common.Ffbuild
 
 class Salt {
   def context

@@ -1,6 +1,6 @@
-package com.snapdeal.common
+package com.practice.common
 
-import com.snapdeal.common.agents.*
+import com.practice.common.agents.*
 
 class AgentFactory {
     def environment
