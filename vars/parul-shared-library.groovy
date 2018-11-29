@@ -7,6 +7,7 @@ def parseJson(text) {
 }
 
 def call(body) {
+  echo "Running in declarative pipeline"
   def config = [:]
   body.resolveStrategy = Closure.DELEGATE_FIRST
   body.delegate = config
