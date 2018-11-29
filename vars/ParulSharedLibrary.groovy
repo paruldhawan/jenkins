@@ -17,7 +17,7 @@ def call(body) {
   if(DEBUG) {
     log_level = "debug"
 
-
+  }
   stage('setup') {
     node("env:dev",{
           // create a function to do this. @todo princetyagi
