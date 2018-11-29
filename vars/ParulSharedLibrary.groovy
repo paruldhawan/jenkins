@@ -21,7 +21,7 @@ def call(body) {
   stage('setup') {
     node("env:dev",{
           // create a function to do this. @todo princetyagi
-          sh(echo "HII")
+          echo "HII"
       }
     })
   }
