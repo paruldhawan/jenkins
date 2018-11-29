@@ -23,5 +23,5 @@ def call(body) {
           // create a function to do this. @todo princetyagi
           echo "HII"
     })
-  })
+  }
 }
